@@ -59,32 +59,3 @@ The dataset includes two columns:
    ```
 
 4. Download the dataset from [Google Drive](https://drive.google.com/drive/folders/1mqkz5eH49-rlsttReeibubkp1WHi2Uc4?usp=sharing) and place it in the `Dataset` directory.
-
----
-
-## Usage
-
-### 1. Preprocessing
-
-Ensure the dataset is preprocessed and tokenized before training. Preprocessing scripts can be found in the **Model** directory.
-
-### 2. Training the Model
-
-Run the following command to train the model:
-```bash
-python train.py
-```
-
-### 3. Predicting Sentiment
-
-Use the trained model to predict sentiment for new text inputs:
-```bash
-python predict.py --input "Your text here"
-```
-
-### 4. Evaluation
-
-Evaluate the model on the test set:
-```bash
-python evaluate.py
-```
