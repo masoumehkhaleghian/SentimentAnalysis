@@ -5,7 +5,7 @@ This repository implements a **binary sentiment analysis model** using **Long Sh
 ## Repository Structure  
 
 ### Directories:  
-- **`Model/`** – Contains the LSTM model implementation, training scripts, and evaluation code.  
+- **`Model/`** – Contains the LSTM model implementation. 
 - **`Dataset/`** – Placeholder for the dataset used in this project. The dataset is hosted externally due to file size limitations.  
 
 ### Files:  
